@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Studyshy - v1</title>
+<link rel="icon" type="image/svg+xml" href="studyshy-logo.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600&family=Geist:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -103,18 +104,10 @@
     gap: 14px;
   }
   .brand-mark {
-    width: 42px;
-    height: 42px;
-    border-radius: 12px;
-    background: linear-gradient(135deg, var(--accent), var(--violet));
-    display: grid;
-    place-items: center;
-    font-family: var(--sans);
-    font-weight: 700;
-    font-size: 18px;
-    color: var(--accent-text);
-    box-shadow: 0 6px 16px var(--accent-glow);
-    letter-spacing: -0.02em;
+    height: 44px;
+    width: auto;
+    display: block;
+    filter: drop-shadow(0 6px 16px rgba(123, 96, 255, 0.35));
   }
   .brand-text h1 {
     font-size: 18px;
@@ -470,17 +463,10 @@
     margin-bottom: 20px;
   }
   .login-logo-mark {
-    width: 36px;
-    height: 36px;
-    border-radius: 10px;
-    background: linear-gradient(135deg, var(--accent), var(--violet));
-    display: grid;
-    place-items: center;
-    font-weight: 700;
-    font-size: 15px;
-    color: var(--accent-text);
-    box-shadow: 0 4px 12px var(--accent-glow);
-    letter-spacing: -0.02em;
+    height: 40px;
+    width: auto;
+    display: block;
+    filter: drop-shadow(0 4px 12px rgba(123, 96, 255, 0.30));
   }
   .login-logo-text {
     font-size: 16px;
@@ -1691,7 +1677,7 @@
   <!-- ─────────── Header ─────────── -->
   <header class="page-header">
     <div class="brand">
-      <div class="brand-mark">s/</div>
+      <img class="brand-mark" src="studyshy-logo.svg" alt="studyshy">
       <div class="brand-text">
         <h1>studyshy</h1>
         <div class="tag">v1.0 · web-mockup</div>
@@ -1775,7 +1761,7 @@
 
               <div class="login-top">
                 <div class="login-logo-row">
-                  <div class="login-logo-mark">s/</div>
+                  <img class="login-logo-mark" src="studyshy-logo.svg" alt="">
                   <div class="login-logo-text">studyshy</div>
                 </div>
 
